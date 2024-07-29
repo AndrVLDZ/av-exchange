@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "av-exchange"
+version = "0.1.0"
+description = "Flet desktop application for calculating the average exchange rate of tenge to ruble based on the rates from the Central Bank of the Russian Federation and the National Bank of the Republic of Kazakhstan."
+authors = ["Vladislav Andronov <68904879+AndrVLDZ@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+flet = "0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
