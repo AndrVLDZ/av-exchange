@@ -5,6 +5,8 @@ description = "Flet desktop application for calculating the average exchange rat
 authors = ["Vladislav Andronov <68904879+AndrVLDZ@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
+
 
 [tool.poetry.dependencies]
 python = "3.11.4"
